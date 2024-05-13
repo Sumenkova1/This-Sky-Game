@@ -1,0 +1,791 @@
+body {
+    font-family: "Roboto-Thin";
+}
+
+header {
+    z-index: 10;
+    position: fixed;
+    width: 1920px;
+    height: 160px;
+    background: url(img/header.png);
+    margin: -8px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 106px;
+    height: 120px;
+    float: left;
+    margin-right: 125px;
+}
+
+.homenav {
+    position: relative;
+    margin: 45px 132px 45px 132px;
+    width: 1100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.homenav a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    border-right: 1px solid rgba(217, 217, 217, 0.6);
+    padding: 0px 25px 0px 25px;
+}
+
+.buttons p {
+    border-radius: 45px;
+    font-family: 'Roboto-Medium';
+    text-align: center;
+    transition: 0.2s;
+}
+
+.buttons {
+    position: absolute;
+    right: 22px;
+    top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+.button p {
+    background-color: white;
+    color: #2F779A;
+    padding: 18px 38px 18px 38px;
+    width: 65px;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
+    box-shadow: 0 0 25px 5px rgba(25, 71, 94, 0.4);
+}
+
+.button p:hover {
+    transition: 0.5s;
+    background-color: #45B8F4;
+    color: white;
+}
+
+.translate p {
+    color: white;
+    background-color: rgba(84, 162, 200, 0.3);
+    width: 118px;
+    padding: 16px 70px 16px 70px;
+    font-size: 30px;
+    position: relative;
+    bottom: 18px;
+}
+
+
+.one-part {
+    width: 1920px;
+    height: 1290px;
+    background: url('video/new_02withmantas.gif') no-repeat 50% 50%;
+    background-size: cover;
+    margin-left: -8px;
+}
+
+.biglogo {
+    margin-left: 746px;
+    width: 430px;
+    height: 485px;
+}
+
+.play-nav a img {
+    width: 138px;
+    height: 140px;
+    margin-left: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px 5px rgba(44, 110, 143, 0.4);
+}
+
+.play-nav {
+    margin-left: 530px;
+    margin-bottom: 35px;
+}
+
+.play-now {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffff, rgba(255, 255, 255, 0));
+    height: 182px;
+    width: 979px;
+    margin-left: 471px;
+    margin-right: 471px;
+}
+
+.play-now h3 {
+    font-family: 'Roboto-Thin';
+    color: #2F779A;
+    font-size: 47px;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.play-now a {
+    background-color: #ffff;
+    padding: 20px 44px 20px 44px;
+    border-radius: 45px;
+    color: #2F779A;
+    font-family: 'Roboto-Medium';
+    font-size: 25px;
+    box-shadow: 0 0 25px 5px rgba(44, 110, 143, 0.4);
+    margin-left: 380px;
+    transition: 0.2s;
+}
+
+.play-now a:hover {
+    transition: 0.5s;
+    background-color: #45B8F4;
+    color: white;
+}
+
+.first-transition {
+    background: url('img/transition\ 1.png') no-repeat 50% 50%;
+    width: 1920px;
+    height: 620px;
+    position: absolute;
+    left: 0px;
+    top: 955px;
+}
+
+.two-part {
+    background-color: #FCE9E5;
+    width: 1920px;
+    height: 1200px;
+    margin-left: -8px;
+}
+
+.two-part img {
+    float: left;
+    width: 995px;
+    height: 1200px;
+}
+
+.explore {
+    width: 969px;
+    position: absolute;
+    top: 1523px;
+    left: 870px;
+    text-align: center;
+}
+
+.explore p {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.explore h1 {
+    font-size: 95px;
+    width: 815px;
+}
+
+.gradient {
+    position: absolute;
+    left: 690px;
+    background-image: -webkit-linear-gradient(right, #FCE9E5, rgba(252, 233, 229, 0));
+    width: 305px;
+    height: 1200px;
+}
+
+.play {
+    background: url('img/playbuttontwo.png') no-repeat 50% 50%;
+    background-size: contain;
+    width: 200px;
+    height: 197px;
+    position: absolute;
+    left: 295px;
+    top: 1786px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px 1px rgba(44, 110, 143, 0.4);
+    transition: 0.2s;
+}
+
+.play:hover {
+    transition: 0.5s;
+    background: url('img/image-removebg-preview.png') no-repeat 50% 50%;
+    background-size: contain;
+    width: 200px;
+    height: 197px;
+}
+
+.second-transition {
+    position: absolute;
+    top: 2150px;
+    background: url('img/transition\ 2.png') no-repeat 50% 50%;
+    width: 1928px;
+    height: 500px;
+    left: -8px;
+}
+
+.three-part {
+    background-color: rgba(212, 222, 230, 0.6);
+    background: url('img/image_2024-05-11_19-54-52.png') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -130px;
+    width: 1920px;
+    height: 1675px;
+    padding-top: 320px;
+    margin-left: -8px;
+}
+
+.three-part h1 {
+    position: absolute;
+    left: 746px;
+    top: 2400px;
+    font-size: 95px;
+    width: 440px;
+}
+
+.three-part section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 65px;
+}
+
+.news {
+    width: 560px;
+    margin-bottom: 87px;
+    margin-right: 25px;
+}
+
+.news img {
+    width: 560px;
+    height: 316px;
+}
+
+.news p {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.news h4 {
+    color: #1C4458;
+    font-size: 25px;
+    font-family: "Roboto-Regular";
+}
+
+.four-part {
+    position: absolute;
+    top: 3800px;
+    background: url('img/background\ 4.png') no-repeat 50% 50%;
+    width: 1920px;
+    height: 2327px;
+    margin-left: -8px;
+}
+
+.four-part h1 {
+    font-family: "Roboto-Thin";
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    top: 551px;
+    right: 542px;
+}
+
+.awards {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 871px;
+    left: 270px;
+    width: 1500px;
+    justify-content: space-around;
+
+}
+
+.award,
+.variant1,
+.variant2 {
+    margin-bottom: 58px;
+    margin-right: 96px;
+}
+
+.award img {
+    height: 170px;
+}
+
+.variant1 img {
+
+    height: 91px;
+    margin-top: 39.5px;
+    margin-bottom: 39.5px;
+}
+
+.variant2 img {
+    height: 72px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+.three-transition {
+    margin-top: 1300px;
+    width: 1920px;
+    height: 500px;
+    background-image: linear-gradient(#334E60, rgba(51, 78, 96, 0));
+}
+
+.five-part {
+    background: url('img/Снимок\ экрана\ 2024-05-10\ 191145.png') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1920px;
+    height: 1690px;
+    margin-left: -8px;
+}
+
+.five-part h1 {
+    position: relative;
+    margin-left: 732px;
+    color: white;
+    font-size: 90px;
+    margin-top: -5px;
+}
+
+.img img {
+    width: 506px;
+    height: 285px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.media {
+    width: 1580px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+}
+
+.switch img {
+    width: 25px;
+}
+
+.switch {
+    margin-left: 915px;
+    margin-top: 55px;
+}
+
+.transparent {
+    opacity: 0.4;
+}
+
+.arrow img {
+    position: absolute;
+    top: 6650px;
+    width: 128px;
+    height: 125px;
+}
+
+.arrowright {
+    left: 1650px;
+    cursor: pointer;
+}
+
+.arrowleft {
+    left: 142px;
+    opacity: 0.5;
+}
+
+.five-part p {
+    z-index: 3;
+    border-radius: 45px;
+    box-shadow: 0 0 25px 1px #2C6E8F;
+    padding: 21px 35px 21px 35px;
+    font-family: 'Roboto-Regular';
+    background-color: white;
+    font-size: 35px;
+    color: #2F779A;
+    width: 450px;
+    text-align: center;
+    margin-left: 680px;
+    transition: 0.2s;
+}
+
+.five-part p:hover {
+    transition: 0.5s;
+    background-color: #45B8F4;
+    color: white;
+}
+
+.four-transition {
+    z-index: 2;
+    background: url('img/transition\ 3.png') no-repeat 50% 50%;
+    width: 1920px;
+    height: 500px;
+    position: relative;
+    top: -250px;
+    margin-left: -8px;
+}
+
+.six-part {
+    height: 4901px;
+    width: 1920px;
+    margin-top: -500px;
+    background: url('img/Снимок\ экрана\ 2024-05-10\ 185853.png') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -8px;
+}
+
+.gradient2 {
+    background-image: -webkit-linear-gradient(#17191C, rgba(23, 25, 28, 0));
+    width: 1920px;
+    height: 1139px;
+    position: absolute;
+    top: 7300px;
+    z-index: 1;
+    margin-left: -8px;
+}
+
+.six-part .social {
+    z-index: 3;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 498.7px;
+}
+
+.six-part .social a img {
+    width: 89px;
+    height: 85px;
+}
+
+.six-part .social a {
+    margin-right: 50px;
+}
+
+.six-part h1 {
+    position: absolute;
+    top: 7681px;
+    left: 938px;
+    z-index: 3;
+    font-size: 47.5px;
+    color: white;
+
+}
+
+.six-part h1::before {
+    content: url('img/instagram-icon.png');
+    z-index: 3;
+    position: absolute;
+    transform: scale(0.4);
+    right: 130px;
+    top: -25px;
+    width: 64px;
+    height: 60px;
+}
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 975.46px;
+    position: relative;
+    left: 474px;
+    top: 334px;
+}
+
+.instagram article {
+    z-index: 3;
+    background-color: white;
+    width: 477px;
+    height: 610px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.inst-block {
+    position: relative;
+    top: -60px;
+    width: 477px;
+    height: 495px;
+    cursor: pointer;
+}
+
+.icon {
+    z-index: 4;
+    position: relative;
+    left: 415px;
+    bottom: 65px;
+    width: 50px;
+}
+
+.instagram article ul li {
+    position: relative;
+    bottom: 75px;
+    font-size: 15px;
+    font-family: "Roboto-Regular";
+    list-style: url('img/clock.png');
+    opacity: 0.3;
+}
+
+.instagram article h5 {
+    margin-left: 20px;
+    font-family: "Fira Sans Condensed";
+    font-size: 18px;
+}
+
+.five-transition {
+    position: absolute;
+    top: 11420px;
+    z-index: 1;
+    background: url('img/transition\ 4.png') no-repeat 50% 50%;
+    width: 1920px;
+    height: 850px;
+}
+
+.six-part h2 {
+    border-radius: 5px;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    left: 767px;
+    top: 11610px;
+    width: 386px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.seven-part {
+    width: 1913px;
+    height: 1408px;
+    background-color: #F4FAFF;
+}
+
+.seven-part img {
+    width: 640px;
+    margin-top: 0px;
+    margin-left: 640px;
+}
+
+.seven-part h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.seven-part p {
+    font-size: 25px;
+    color: #2F779A;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.goods article a img {
+    position: absolute;
+    margin-right: 15px;
+    width: 400px;
+}
+
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 13000px;
+    left: -490px;
+    width: 1230px;
+    justify-content: space-around;
+}
+
+.seven-part h5 {
+    position: relative;
+    left: 800px;
+    top: 450px;
+    font-family: "Roboto-Medium";
+    text-align: center;
+    background-color: white;
+    color: #2F779A;
+    border-radius: 45px;
+    box-shadow: 0 0 25px 1px rgba(44, 110, 143, 0.35);
+    padding: 20px 35px 20px 35px;
+    width: 245px;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.seven-part h5:hover {
+    transition: 0.5s;
+    background-color: #45B8F4;
+    color: white;
+}
+
+.six-transition {
+    background-image: linear-gradient(#F4FAFF, #ffffff);
+    width: 1920px;
+    height: 350px;
+    margin-left: -8px;
+    margin-top: 450px;
+}
+
+.line {
+    background-image: linear-gradient(to right, #fff, #000, #fff);
+    height: 1px;
+    width: 1280px;
+    margin-left: 320px;
+    margin-top: 0px;
+    opacity: 0.3;
+}
+
+.eight-part h1 {
+    font-family: "Fira Sans Condensed";
+    font-size: 75px;
+    text-align: center;
+    margin-left: 792px;
+    width: 335px;
+    margin-top: 140px;
+}
+
+.eight-part p {
+    font-family: "Roboto-Regular";
+    text-align: center;
+    color: #6F86A9;
+    font-size: 35px;
+    width: 1119px;
+    line-height: 75px;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
+.subscribe {
+    height: 70px;
+    width: 834px;
+    background-color: white;
+    border: 1px solid #bababa;
+    border-radius: 45px;
+    margin-left: 568px;
+    margin-bottom: 86px;
+}
+
+.signup input,
+button {
+    font-size: 30px;
+    border: none;
+}
+
+.signup input {
+    outline: none;
+    position: absolute;
+    top: 14232px;
+    left: 603px;
+    font-family: "Roboto-Thin";
+    background-color: white;
+    z-index: 1;
+    padding: 17px 236px 17px 0px;
+}
+
+.signup button {
+    position: relative;
+    left: 534px;
+    border-radius: 45px;
+    height: 70px;
+    font-family: "Roboto-Regular";
+    background-color: #45B8F4;
+    color: white;
+    padding: 23px 79px 23px 108px;
+}
+
+footer {
+    /* підвал */
+    padding: 145px 124px 132px 124px;
+}
+
+.footer-logo {
+    height: 66px;
+    width: 604px;
+    margin-left: 534px;
+    cursor: pointer;
+    margin-bottom: 105px;
+}
+
+footer p {
+    font-family: "Roboto-Medium";
+    font-size: 33px;
+    text-align: center;
+    width: 823px;
+    margin-left: 424px;
+    margin-bottom: 104px;
+}
+
+footer li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+footer li a {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+footer li a:hover {
+    transition: 0.1s;
+    background-color: #163f52;
+    color: white;
+}
+
+footer ul {
+    margin-bottom: 96px;
+    width: 1672px;
+    display: flex;
+}
+
+footer h4 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #45B8F4;
+    font-size: 15px;
+    width: 510px;
+    margin-left: 621px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+footer h4:hover {
+    transition: 0.2s;
+    font-weight: 100;
+    color: white;
+    box-shadow: 0 0 25px 5px #1C4458;
+    background-color: #1C4458;
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("fonts/Roboto_Thin/Roboto-Thin.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("fonts/Roboto_Medium/Roboto-Medium.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("fonts/Roboto_Regular/Roboto-Regular.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Fira Sans Condensed";
+    src: url("fonts/FiraSansCondensed/FiraSansCondensed-ExtraLight.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
